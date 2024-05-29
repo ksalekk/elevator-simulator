@@ -27,4 +27,4 @@ cd ./bins
 # Remember not to type .class extension
 java edu/ksalekk/elevatorsimulator/ElevatorSimulatorTest
 ```
-You can also run all these programs in your IDE.
+You can also run the program in your IDE.
