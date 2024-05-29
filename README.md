@@ -10,8 +10,16 @@ p  the probability of a passenger appearing in unit t on a random floor with the
 
 The program graphically visualizes the state of the entire system every unit of time *t*, i.e. the location of the elevator, current source and destination floors, the elevator condition, the number of passengers inside, passengers waiting on each floor.
 
-<br /><br /><br />
+## Elevator algorithm and architecture
 
+### Elevator algorithm
+- no requests => elevator stay at the current floor
+- elevator move in one chosen direction from src to dest
+- if the request is on src->dest track, elevator stops and service it (take/release passengers)
+- request is send when passenger takes elevator (src) or go inside elevator (dest)
+<br /><br />
+
+### Architecture
 ![Diagram UML for the simulator](./uml.png)
 
 
