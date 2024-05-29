@@ -16,15 +16,20 @@ The program graphically visualizes the state of the entire system every unit of 
 
 
 ## Run
+1. Make sure you have installed JDK
 ```
-# Make sure you have installed JDK 
 javac -version
-
-cd ./elevatoor-simulator
+```
+2. Clone the repository and compile all .java files
+```
+git clone https://github.com/ksalekk/elevator-simulator.git
+cd ./elevator-simulator
 javac -d bins ./src/edu/ksalekk/elevatorsimulator/*.java
 cd ./bins
-
-# Remember not to type .class extension
-java edu/ksalekk/elevatorsimulator/ElevatorSimulatorTest
 ```
+3. Run test program with specified parameters (remember not to type .class extension)
+```
+java edu/ksalekk/elevatorsimulator/ElevatorSimulatorTest 5 2 0.3
+```
+
 You can also run the program in your IDE.
